@@ -1,0 +1,7 @@
+C:\Users\ASUS\source\repos\Layihe\Layihe\bin\Debug\Layihe.exe.config
+C:\Users\ASUS\source\repos\Layihe\Layihe\bin\Debug\Layihe.exe
+C:\Users\ASUS\source\repos\Layihe\Layihe\bin\Debug\Layihe.pdb
+C:\Users\ASUS\source\repos\Layihe\Layihe\obj\Debug\Layihe.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Layihe\Layihe\obj\Debug\Layihe.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Layihe\Layihe\obj\Debug\Layihe.exe
+C:\Users\ASUS\source\repos\Layihe\Layihe\obj\Debug\Layihe.pdb
