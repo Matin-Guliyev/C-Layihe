@@ -6,33 +6,39 @@ using System.Threading.Tasks;
 
 namespace Layihe.Models
 {
-    class Department
+    public class Department
     {
         public string DepartmentName { get; set; }
         public int WorkerLimit { get; set; }
         public double  SalaryLimit { get; set; }
-        public IList<Employee> employes { get; set; }
+        public List<Employee> Employees { get; set; }
         public Department(string Departmentname, int worklimit, double salarylimit)
         {
+            Employees = new List<Employee>();
             DepartmentName = Departmentname;
             WorkerLimit = worklimit;
             SalaryLimit = salarylimit;
         }
-        public Department(Employee employees)
-        {
-
-        }
+       
         public double CalcSalaryAverage()
         {
             double average = 0;
             double sum = 0;
-            foreach (var item in employes)
+            foreach (var item in Employees)
             {
                 sum += item.Salary;
             }
 
-            average = sum / employes.Count;
-            return average;
+            if (Employees.Count!=0)
+            {
+                average = sum / Employees.Count;
+                return average;
+            }
+            else
+            {
+                return 0;
+            }
+           
         }
     }
 }
