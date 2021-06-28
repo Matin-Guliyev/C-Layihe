@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Layihe.Interfaces
 {
-    interface IHumanResourceManager
+    interface IHumanResourceManager //created the interface ...
+
     {
        void AddDepartment(string name, int workerlimit, double salarylimit);
         void EditDepartment(string name, string newName);

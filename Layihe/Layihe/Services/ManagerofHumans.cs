@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace Layihe.Services
 {
-    public class ManagerofHumans : IHumanResourceManager
+    public class ManagerofHumans : IHumanResourceManager //implement the Interface and write the interface body in this class...
+        //and all method in managerofHuman class...
     {
         public List<Department> Departments { get; set; }
         public List<Employee> Employees { get; set; }

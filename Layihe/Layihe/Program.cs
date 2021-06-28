@@ -11,7 +11,8 @@ namespace Layihe
     {
         static void Main(string[] args)
         {
-            string mtn;
+            string mtn;// consoole window and run the code ...!@
+
 
             do
             {

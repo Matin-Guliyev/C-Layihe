@@ -11,6 +11,7 @@ namespace Layihe.Services
         
     {
         static ManagerofHumans manager = new ManagerofHumans();
+        //managerOfHuman menyu kodu dahha unikal ve oxunaqli olmasi ucun istifade edirik ve kod daha oxunaqli olur....!
 
         public static void AddDepartmentMenu()
         {
@@ -74,17 +75,11 @@ namespace Layihe.Services
 
         }
         
-        public static void EditEmployee()
+        public static void EditEmployee()// change the salary position and no...!
+
         {
 
-            //Console.WriteLine("Enter the  No:");
-            //string no = Console.ReadLine();
-            //Console.WriteLine("Enter the FullName:");
-            //string fullname = Console.ReadLine();
-            //Console.WriteLine("Enter the salary:");
-            //double salary = double.Parse(Console.ReadLine());
-            //Console.WriteLine("Enter the position:");
-            //string position = Console.ReadLine();
+           
             try
             {
                 

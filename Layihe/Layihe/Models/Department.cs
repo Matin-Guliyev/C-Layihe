@@ -14,13 +14,13 @@ namespace Layihe.Models
         public List<Employee> Employees { get; set; }
         public Department(string Departmentname, int worklimit, double salarylimit)
         {
-            Employees = new List<Employee>();
+            Employees = new List<Employee>(); // created the new list
             DepartmentName = Departmentname;
             WorkerLimit = worklimit;
             SalaryLimit = salarylimit;
         }
        
-        public double CalcSalaryAverage()
+        public double CalcSalaryAverage() // avarage the worker salary
         {
             double average = 0;
             double sum = 0;
@@ -38,6 +38,7 @@ namespace Layihe.Models
             {
                 return 0;
             }
+            // canculated the average and 
            
         }
     }
